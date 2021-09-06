@@ -5,7 +5,7 @@ import speech_recognition as sr
 
 
 def ouvir_microfone():
-    # Habilita o microfone do usuário
+    # Habilita o microfone do usuario
     microfone = sr.Recognizer()
 
     # usando o microfone
