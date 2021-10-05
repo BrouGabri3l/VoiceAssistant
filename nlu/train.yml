@@ -1,0 +1,13 @@
+commands:
+  - command:
+    input: Que horas são?
+    entity: time
+    action: getTime
+  - command:
+    input: Que dia é hoje?
+    entity: data
+    action: getData
+  - command:
+    input: Abrir o google
+    entity: open
+    action: 

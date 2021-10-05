@@ -116,7 +116,7 @@ try:
                 try:
                     result = json.loads(rec.Result())
                     text = result['text']
-
+                    print(text)
                     if text == 'que horas são' or text == 'me diga as horas':
                         speak(core.SysInfo.get_time())
                 except AssertionError:
