@@ -1,0 +1,4 @@
+weather\getWeather
+search\getAnswer
+time\getTime
+date\getDate

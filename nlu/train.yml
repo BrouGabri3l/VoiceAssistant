@@ -5,9 +5,13 @@ commands:
     action: getTime
   - command:
     input: Que dia é hoje?
-    entity: data
-    action: getData
+    entity: date
+    action: getDate
   - command:
-    input: Abrir o google
-    entity: open
-    action: 
+    input: Pesquisar no google qual a
+    entity: search
+    action: getAnswer
+  - command:
+    input: Qual a temperatura atual?
+    entity: weather
+    action: getWeather
